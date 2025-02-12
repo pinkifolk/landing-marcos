@@ -1,0 +1,88 @@
+
+{
+    "header": {
+            "menu" : [
+                {
+                    "name" :"Inicio"
+                },
+                {
+                    "name" :"Quienes somos"
+                },
+                {
+                    "name" :"Servicios"
+                },
+                {
+                    "name" :"Proyectos"
+                },
+                {
+                    "name" :"Galería"
+                },
+                {
+                    "name" :"Contacto"
+                }
+                
+            ],
+        
+            "logo" : 
+                {
+                    "src" : "img/Logo.png",
+                    "alt" : "MAPA | Ingeniería Gestion Fabricación",
+                    "title": "MAPA | Ingeniería Gestion Fabricación"
+                }
+            
+        },
+    "slider" : [
+        {
+            "src" : "img/Imagen3.png",
+            "alt" : "",
+            "title": "",
+            "titulo" : "Soluciones para la industria",
+            "descripcion" : "Soluciones son diseñadas de acuerdo a las normas Chilenas, estándares y normas internacionales:  ASTM, AWS, SSPC,NACE, ASME, API entre otros",
+            "botones" : [
+                {
+                    "name" : "Proyectos",
+                    "link" : "#proyectos"
+                },
+                {
+                    "name" : "Contacto",
+                    "link" : "#contacto"
+                }
+            ]
+        },
+        {
+            "src" : "img/Imagen4.jpg",
+            "alt" : "",
+            "title": "",
+            "titulo" : "Soluciones para la industria",
+            "descripcion" : "Soluciones son diseñadas de acuerdo a las normas Chilenas, estándares y normas internacionales:  ASTM, AWS, SSPC,NACE, ASME, API entre otros",
+            "botones" : [
+                {
+                    "name" : "Proyectos",
+                    "link" : "#proyectos"
+                },
+                {
+                    "name" : "Contacto",
+                    "link" : "#contacto"
+                }
+            ]
+        },
+        {
+            "src" : "img/Imagen5.png",
+            "alt" : "",
+            "title": "",
+            "titulo" : "Soluciones para la industria",
+            "descripcion" : "Soluciones son diseñadas de acuerdo a las normas Chilenas, estándares y normas internacionales:  ASTM, AWS, SSPC,NACE, ASME, API entre otros",
+            "botones" : [
+                {
+                    "name" : "Proyectos",
+                    "link" : "#proyectos"
+                },
+                {
+                    "name" : "Contacto",
+                    "link" : "#contacto"
+                }
+            ]
+        }
+    ]
+    
+}

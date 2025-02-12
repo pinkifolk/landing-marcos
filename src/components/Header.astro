@@ -1,7 +1,22 @@
 ---
-
+import { header } from '@data'
+const {menu, logo} =header
+const {src, alt, title} = logo
 ---
 
-<div class="bg-slate-200 w-fullS">
-	Header
+<div class="bg-white py-5 w-full flex justify-between">
+	<div class="w-[150px] ml-5">
+		<img src={src} alt={alt} title={title} />
+	</div>
+	<div class="mr-10">
+		<ul class="flex h-[85px]">
+			{
+				menu.map((item) => (
+				<li class="py-8 px-0">
+					<a href="#" class="p-8 bg-white hover:bg-[#0da3ff]">{item.name}</a>	
+				</li>	
+				))
+			}									
+		</ul>
+	</div>
 </div>

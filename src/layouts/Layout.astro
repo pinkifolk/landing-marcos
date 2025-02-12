@@ -1,16 +1,19 @@
 ---
  import '/src/styles/global.css'
+ import Header from '@/components/Header.astro'
 ---
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon"  href="/icono.png" />
+		<meta name="description" content="Mapa ingenieros, es una empresa dedicada a desarrollar y gestionar proyectos para la industria. Nuestras soluciones son diseñadas de acuerdo a las normas Chilenas, estándares y normas internacionales:  ASTM, AWS, SSPC,NACE, ASME, API entre otros." />		
 		<meta name="generator" content={Astro.generator} />
 		<title>MAPA | Ingeniería Gestión Fabricación</title>
 	</head>
 	<body>
+		<Header />
 		<slot />
 	</body>
 </html>
