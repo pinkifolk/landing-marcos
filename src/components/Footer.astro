@@ -1,0 +1,48 @@
+---
+import { header } from '@data'
+import { footer } from '@data'
+
+const {src, alt,title} = header.logo
+const {oficina ,rrss,consultas} = footer[0]
+console.log(consultas)
+---
+
+<div class="bg-white w-full mt-10">
+	<div class="flex gap-32">
+		<div class="w-[250px] ml-5">
+			<img src={src} alt={alt} title={title} />
+		</div>
+		<div>
+			<h3 class="font-semibold">Dirección</h3>
+			{oficina[0].direccion}
+		</div>
+		<div>
+			<h3 class="font-semibold">Redes</h3>
+			{
+				rrss.map((rrss) =>(
+					<div class="flex">
+						<a href={rrss.url}>{rrss.titulo}</a>
+					</div>
+
+				))
+			}
+		</div>
+		<div>
+			<h3 class="font-semibold">Consultas</h3>
+			{
+				consultas.map((item) =>(
+					<div class="flex flex-col">
+						<span>{item.texto}</span>
+						<a href=`tel:${item.telefono}`>{item.telefono}</a>
+						<a href=`mailto:${item.email}`>{item.email}</a>
+					</div>
+
+				))
+			}
+		</div>
+		<div>
+			<a href="#">Contacto</a>
+		</div>
+
+	</div>
+</div>

@@ -83,6 +83,193 @@
                 }
             ]
         }
+    ],
+    "nosotros" :[
+        {
+            "titulo" :"Contruir es lo que hacemos",
+            "descripcion": "Mapa ingenieros, es una empresa dedicada a desarrollar y gestionar proyectos para la industria."
+        }
+    ],
+    "proyectos" : [
+        {
+            "titulo" : "Modelos Bim",
+            "descripcion" : "Breve descripción de los modelos Bim",
+            "imagen" : [
+                {
+                    "src" : "#",
+                    "alt" : "",
+                    "title": ""
+                }
+            ]
+
+            
+        },
+        {
+            "titulo" : "Diseño de puestes grúas",
+            "descripcion" : "Breve descripción de los puentes grúas",
+            "imagen" : [
+                {
+                    "src" : "#",
+                    "alt" : "",
+                    "title": ""
+                }
+            ]
+
+            
+        }
+       
+    ],
+    "servicios" : [
+        {
+        "titulo" : "Nuestros servicios",
+        "descripcion" :"Breve descripción de los servicios",
+        "items" : [
+            {
+                "titulo" : "Construccion Comercial",
+                "src" : "", 
+                "alt" : "",
+                "title": ""
+            },
+            {
+                "titulo" : "Construccion Comercial",
+                "src" : "", 
+                "alt" : "",
+                "title": ""
+            },
+            {
+                "titulo" : "Construccion Comercial",
+                "src" : "", 
+                "alt" : "",
+                "title": ""
+            },
+            {
+                "titulo" : "Construccion Comercial",
+                "src" : "", 
+                "alt" : "",
+                "title": ""
+            },
+            {
+                "titulo" : "Construccion Comercial",
+                "src" : "", 
+                "alt" : "",
+                "title": ""
+            },
+            {
+                "titulo" : "Construccion Comercial",
+                "src" : "", 
+                "alt" : "",
+                "title": ""
+            },
+            {
+                "titulo" : "Construccion Comercial",
+                "src" : "", 
+                "alt" : "",
+                "title": ""
+            }
+        ]
+        }
+    ],
+    "galeria": [
+        {
+        "titulo" : "Galería",
+        "descripcion" : "Algunos de nuestros proyectos",
+        "imagenes" : [
+            {
+                "src" : "#",
+                "alt" : "",
+                "title": ""   
+            },
+            {
+                "src" : "#",
+                "alt" : "",
+                "title": ""   
+            },
+            {
+                "src" : "#",
+                "alt" : "",
+                "title": ""   
+            }
+        ]
+        }
+
+        
+    ],
+    "clientes" : [
+        {
+            "titulo" : "Nuestros clientes",
+            "descripcion" : "Algunos de nuestros clientes",
+            "imagenes" :[
+                {
+                "src" : "#",
+                "alt" : "",
+                "title": ""
+                },
+                {
+                    "src" : "#",
+                    "alt" : "",
+                    "title": ""
+                },
+                {
+                    "src" : "#",
+                    "alt" : "",
+                    "title": ""
+                },
+                {
+                    "src" : "#",
+                    "alt" : "",
+                    "title": ""
+                },
+                {
+                    "src" : "#",
+                    "alt" : "",
+                    "title": ""
+                },
+                {
+                    "src" : "#",
+                    "alt" : "",
+                    "title": ""
+                },
+                {
+                    "src" : "#",
+                    "alt" : "",
+                    "title": ""
+                },
+                {
+                    "src" : "#",
+                    "alt" : "",
+                    "title": ""
+                }
+        ]
+        }        
+    ],
+    "footer" :[
+        {
+            "oficina" :[
+                {
+                    "direccion":"La direccion que tengas"
+                }
+            ],
+            "rrss" :[
+                {
+                    "titulo":"facebook",
+                    "url":""
+                },{
+                    "titulo":"instagram",
+                    "url":""
+                },{
+                    "titulo":"linkedin",
+                    "url":""
+                }
+            ],
+            "consultas" : [
+                {
+                    "texto":"Para cualquier consulta, duda o mención, llama al",
+                    "telefono":"+569 99933322",
+                    "email":"contacto@mapa.cl"
+
+                }
+            ]
+        }
     ]
     
-}
+}        

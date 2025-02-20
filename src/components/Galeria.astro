@@ -1,7 +1,27 @@
 ---
-
+import { galeria } from '@data'
+const {titulo, descripcion, imagenes} = galeria[0]
+console.log(galeria)
 ---
 
-<div class="bg-slate-200 w-fullS">
-	Galeria
+<div class="bg-white w-full">
+	<div class="ml-5">
+		<h1 class="text-3xl font-bold">
+			{titulo}
+		</h1>
+		<p class="text-balance">
+			{descripcion}
+		</p>
+	</div>
+	<div id="controls-carousel" class="relative w-full" data-carousel="static">
+		<div class="relative h-[500px] overflow-hidden">
+			{
+				imagenes.map((item) =>(	
+					<div class="duration-700 ease-in-out">
+						<img src={item.src} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt={item.alt} title={item.title}>
+					</div>		
+				))
+			}
+		</div>
+	</div>
 </div>

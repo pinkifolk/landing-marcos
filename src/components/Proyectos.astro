@@ -1,7 +1,19 @@
 ---
-
+import {proyectos} from '@data' 
+console.log(proyectos)
 ---
 
-<div class="bg-slate-200 w-fullS">
-	Proeuyectos
+<div class="bg-white w-full">
+	{
+		proyectos.map((item, index) =>(
+			<div class={`py-40 w-1/2 ${index % 2 === 0 ? 'ml-10 ' : 'ml-auto mr-10'}`}>
+				<span class="text-xl">
+					{item.titulo}
+				</span>
+				<p class="text-2xl font-semibold">
+					{item.descripcion}
+				</p>
+			</div>
+		))
+	}
 </div>
